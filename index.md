@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/92cit22/IST/edit/gh-pages/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-![Screenshot](https://drive.google.com/file/d/1HyH11mB0SFjXd4BnJYgrxHao6ScGtGAj/view?usp=sharing)
+![Screenshot](https://lh3.googleusercontent.com/1HyH11mB0SFjXd4BnJYgrxHao6ScGtGAj)
 
 ### Markdown
 
