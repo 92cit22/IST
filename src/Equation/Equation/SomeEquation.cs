@@ -4,10 +4,10 @@ namespace Equation;
 
 public class SomeEquation
 {
-	public double A           { get; private set; }
-	public double B           { get; private set; }
-	public double C           { get; private set; }
-	public double X           { get; private set; }
+	public double A           { get; }
+	public double B           { get; }
+	public double C           { get; }
+	public double X           { get; }
 	public Type   CurrentType { get; private set; }
 
 	public SomeEquation( double a,
@@ -43,7 +43,7 @@ public class SomeEquation
 		}
 	}
 
-	private double Linear() => -A / ( X - C );
+	private double Linear() => A * ( X + C );
 
 	private double Hyperbola() => -A / ( X - C );
 
@@ -52,6 +52,7 @@ public class SomeEquation
 	[ DefaultValue( NotSelect ) ]
 	public enum Type : byte
 	{
+		
 		Linear,
 		Hyperbola,
 		Parabola,
